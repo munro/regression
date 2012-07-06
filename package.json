@@ -1,0 +1,25 @@
+{
+  "author": "Ryan Munro <munro.github@gmail.com> (http://0x0539.org)",
+  "name": "regression",
+  "description": "Multiple linear regression model using least squares algorithm.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/munro/regression",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/munro/regression.git"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "dependencies": {
+    "sylvester": "0.0.21"
+  },
+  "devDependencies": {
+    "tap": "0.2.5"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
