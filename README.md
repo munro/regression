@@ -2,7 +2,7 @@
 
 ![B = X.transpose.multiply(X).inverse().multiply(X.transpose()).multiply(Y)](http://upload.wikimedia.org/wikipedia/en/math/a/6/5/a65c30d3cc0831f3634a84e1a7e2d894.png)
 
-Linear regression is a great tool for estimating values based on linear data (dyuh!)  Coupled with statistics, it can be used for predicting required resources based on future demand of cloud services, or consolidating existing demand.
+Linear regression is a great tool for estimating values based on linear data (dyuh!)  Coupled with hourly load statistics, it can be used for predicting required resources based on future demand of cloud services, or consolidating existing demand.
 
 Checkout Wikipedia for more information about [linear regression](http://en.wikipedia.org/wiki/Linear_regression) and [least squares](http://en.wikipedia.org/wiki/Least_squares).
 
@@ -40,7 +40,7 @@ Push a sample of data into the data set.  The data must have the same keys every
 
 **Example**
 
-   setInterval(function () {
+    setInterval(function () {
         sample.update(process.memoryUsage().heapUsed, {
             active: Application.getActivePlayers(),
             idle: Application.getIdlePlayers()
